@@ -13,7 +13,7 @@ Expert in web Scraping,Web automation,Investigation research and databases,
 */
 require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
-for($page = 339392;$page <= 397031; $page++)
+for($page = 348869;$page <= 397031; $page++)
 	{
 		$link	=	'https://www.fbise.edu.pk/linkrollno-hssc-1.php?roll_no='.$page;
 		echo 	"$page\n";
